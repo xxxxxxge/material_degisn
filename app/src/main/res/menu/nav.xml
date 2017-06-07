@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/i1"
+            android:icon="@drawable/ic_looks_one_white_24dp"
+            android:title="icon_1"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/i2"
+            android:icon="@drawable/ic_looks_two_white_24dp"
+            android:title="icon_2"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/i3"
+            android:icon="@drawable/ic_looks_3_white_24dp"
+            android:title="icon_3"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/i4"
+            android:icon="@drawable/ic_looks_4_white_24dp"
+            android:title="icon_4"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/i5"
+            android:icon="@drawable/ic_looks_5_white_24dp"
+            android:title="icon_5"
+            app:showAsAction="never" />
+    </group>
+</menu>
